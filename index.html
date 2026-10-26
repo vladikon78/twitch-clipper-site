@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Twitch Clipper</title>
+<style>
+  :root { --bg: #0B0712; --fg: #F2EEFA; --muted: #B3AAC4; --line: rgba(255,255,255,.1); }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 "Segoe UI", system-ui, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 56px 20px 64px; }
+  h1 { font-size: 32px; margin: 0 0 8px; }
+  h2 { font-size: 20px; margin: 32px 0 8px; }
+  p, li { color: var(--muted); }
+  a { color: #C9B8FF; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 14px; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Twitch Clipper</h1>
+  <p>A personal desktop app for Windows that finds the funniest moments of a Twitch stream by watching how the
+    chat reacts, cuts them into short clips and lets the creator review them.</p>
+
+  <h2>How TikTok is used</h2>
+  <ul>
+    <li>The creator connects their own TikTok account with TikTok Login Kit.</li>
+    <li>Nothing is posted automatically. A clip is sent to TikTok only when the creator presses
+      “Upload to TikTok” for that specific clip.</li>
+    <li>The clip goes to the creator's TikTok inbox as a draft (Content Posting API, upload).
+      The creator opens it in the TikTok app, edits it and publishes it themselves.</li>
+    <li>The app runs entirely on the creator's computer. There is no server and no data is collected.</li>
+  </ul>
+
+  <h2>Коротко по-русски</h2>
+  <p>Программа для Windows: находит смешные моменты стрима по реакции чата и режет из них клипы.
+    В TikTok клип уходит только по кнопке, в черновики — публикует автор сам в приложении TikTok.
+    Программа работает только на компьютере пользователя и никаких данных не собирает.</p>
+
+  <footer>
+    <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a> ·
+    Contact: <a href="https://github.com/vladikon78">github.com/vladikon78</a>
+  </footer>
+</main>
+</body>
+</html>
